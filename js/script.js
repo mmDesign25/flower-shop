@@ -14,7 +14,10 @@ window.addEventListener('scroll', () => {
         // logo.src = 'icons/logo-dark.svg';
 
         // ブラウザ用(indexを右クリック＆Open with Live Server)
-        logo.src = '/icons/logo-dark.svg';
+        // logo.src = '/icons/logo-dark.svg';
+
+        // github用
+        logo.src = '/flower-shop/icons/logo-dark.svg';
 
 
     } else {
@@ -28,6 +31,9 @@ window.addEventListener('scroll', () => {
         // logo.src = 'icons/logo-light.svg';
 
         // ブラウザ用(indexを右クリック＆Open with Live Server)
-        logo.src = '/icons/logo-light.svg';
+        // logo.src = '/icons/logo-light.svg';
+
+        // github用
+        logo.src = '/flower-shop/icons/logo-light.svg';
     }
 });
