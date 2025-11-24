@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
         // logo.src = '/icons/logo-dark.svg';
 
         // github用
-        logo.src = './icons/logo-dark.svg';
+        logo.src = 'icons/logo-dark.svg';
 
 
     } else {
@@ -34,6 +34,6 @@ window.addEventListener('scroll', () => {
         // logo.src = '/icons/logo-light.svg';
 
         // github用
-        logo.src = './icons/logo-light.svg';
+        logo.src = 'icons/logo-light.svg';
     }
 });
