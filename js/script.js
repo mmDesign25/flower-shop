@@ -1,6 +1,10 @@
 const header = document.querySelector('.header');
 const logo = document.getElementById('logo');
 
+// 現在の URL からベースパスを自動取得
+// 例）/flower-shop/index.html → /flower-shop/
+const basePath = location.pathname.replace(/index\.html$/, '');
+
 // スクロール時の処理
 window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
@@ -17,7 +21,10 @@ window.addEventListener('scroll', () => {
         // logo.src = '/icons/logo-dark.svg';
 
         // github用
-        logo.src = '/flower-shop/icons/logo-dark.svg';
+        // logo.src = '/flower-shop/icons/logo-dark.svg';
+
+        // 環境共通化用
+        logo.src = basePath + 'icons/logo-dark.svg';
 
 
     } else {
@@ -34,6 +41,9 @@ window.addEventListener('scroll', () => {
         // logo.src = '/icons/logo-light.svg';
 
         // github用
-        logo.src = '/flower-shop/icons/logo-light.svg';
+        // logo.src = '/flower-shop/icons/logo-light.svg';
+
+        // 環境共通化用
+        logo.src = basePath + 'icons/logo-light.svg';
     }
 });
