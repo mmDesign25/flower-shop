@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access | sunday flower</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top" class="access">
+
+    <!-- コーディング完了後、headerはphpとして切り出す -->
+
+    <header class="header">
+
+        <div class="logo-area">
+            <a href="../index.html#top">
+                <img src="../icons/logo-light.svg" alt="Site Logo" id="logo">
+            </a>
+        </div>
+
+        <div id="gnav-drawer">
+            <input id="nav-input" class="none" type="checkbox">
+            <label id="nav-input-open" for="nav-input">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <label id="nav-input-close" for="nav-input"></label>
+
+            <label class="overlay-close" for="nav-input"></label>
+
+            <nav class="header-navi">
+                <ul class="en">
+                    <li><a href="../index.html#top">Home</a></li>
+                    <li><a href="../flowers/index.html#top">Our Flowers</a></li>
+                    <li><a href="../news/index.html#top">News</a></li>
+                    <li><a href="index.html#top">Access</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- スクロール時のヘッダー透過背景 -->
+    <div class="header-bg"></div>
+
+    <section class="hero-subpage">
+        <div class="hero-img-wrap">
+            <img src="../img/access-top.jpg" alt="Hero-subpage">
+            <h1 class="hero-title en">Access</h1>
+        </div>
+    </section>
+
+    <main>
+
+        <section class="inner">
+            <div>
+
+                <h2 class="sub-page-h2 sub-page-wrap sub-title">アクセス・店舗情報</h2>
+
+
+                <table class="inner access-tbl">
+                    <tr>
+                        <th class>住所：</th>
+                        <td class>〒000-0000 東京都新宿区xxx1-2-3</td>
+                    </tr>
+                    <tr>
+                        <th>TEL：</th>
+                        <td>03-1234-5678</td>
+                    </tr>
+                    <tr>
+                        <th>営業時間：</th>
+                        <td>10:00〜19:00（火曜定休）</td>
+                    </tr>
+                    <tr>
+                        <th>アクセス：</th>
+                        <td>新宿駅から徒歩4分（南口を出てすぐ）</td>
+                    </tr>
+                </table>
+
+                <div class="inner gmap">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4687733197056!2d139.70006059999997!3d35.6900803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1763202547443!5m2!1sja!2sjp"
+                        width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <p class="inner access-txt">白を基調とした明るい店内で、 花とゆっくり向き合う時間をお楽しみください。<br><br>
+                    <small>※sunday flowerは、株式会社日本生花が運営しています。</small>
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- footerは最後に切り出す -->
+    <footer id="footer" class="foot-area">
+        <div class="inner-footer">
+            <div class="logo-area foot-logo">
+                <a href="../index.html#top"><img src="../icons/footer-logo.svg" alt="フッターロゴ"></a>
+            </div>
+            <address class="text-phone">
+                〒000-0000<br>東京都新宿区xxx1-2-3<br>
+                Tel: <a href="tel:03-1234-5678">03-1234-5678</a>
+            </address>
+            <small class="foot-area_copy">&copy; 2025 sunday flower. All Rights Reserved.</small>
+        </div>
+
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js" defer></script>
+
+</body>
+
+</html>

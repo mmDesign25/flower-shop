@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | sunday flower</title>
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top" class="home">
+
+    <!-- コーディング完了後、headerはphpとして切り出す -->
+
+    <header class="header">
+
+
+        <div class="logo-area">
+            <a href="#top">
+                <img src="icons/logo-light.svg" alt="Site Logo" id="logo">
+            </a>
+        </div>
+
+        <div id="gnav-drawer">
+            <input id="nav-input" class="none" type="checkbox">
+            <label id="nav-input-open" for="nav-input">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <label id="nav-input-close" for="nav-input"></label>
+
+            <label class="overlay-close" for="nav-input"></label>
+
+            <nav class="header-navi">
+                <ul class="en">
+                    <li><a href="index.html#top">Home</a></li>
+                    <li><a href="flowers/index.html#top">Our Flowers</a></li>
+                    <li><a href="news/index.html#top">News</a></li>
+                    <li><a href="access/index.html#top">Access</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- スクロール時のヘッダー透過背景 -->
+    <div class="header-bg"></div>
+
+    <section class="hero-slider" id="home">
+        <!-- 画像 -->
+        <img src="img/slide-1.jpg" alt="Hero1">
+        <img src="img/slide-2.jpg" alt="Hero2">
+        <img src="img/slide-3.jpg" alt="Hero3">
+
+        <!-- テキスト -->
+        <div class="hero-text">
+            <h1 class="text1">日曜日のような、<br class="sp-only">やさしい時間をあなたに。</h1>
+            <h1 class="text2">花と一緒に、<br class="sp-only">特別な瞬間を。</h1>
+            <h1 class="text3">sunday flowerは、<br class="sp-only">花と人をつなぐ場所です。</h1>
+        </div>
+
+        <div class="scroll en">
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <main>
+
+        <section id="concept" class="concept-area">
+            <div class="inner concept-content">
+                <div class="concept-txt">
+                    <p class="en">Concept</p>
+                    <p>「日曜日のように、やさしい時間を花とともに。」</p><br>
+                    <p>sunday flowerは、街の小さなフラワーショップです。<br>日々の暮らしに花を添えることで、 少しだけ心がほどけるような時間を届けたい ──
+                        。<br>特別な日も、何気ない日も、あなたの毎日に「日曜日のような幸せ」を咲かせます。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="flowers" class="flowers-area">
+            <div class="inner flowers-content">
+                <div class="flowers-txt">
+                    <p class="en">Our Flowers</p>
+                    <p>季節を感じる生花を中心に、プリザーブドフラワーやソープフラワー、ハーバリウムなどのギフトも取りそろえています。<br>日常の花束から特別な日のアレンジまで、想いに合わせたお花をご提案いたします。
+                    </p>
+                    <a href="flowers/index.html#top" class="btn">もっと見る</a>
+                </div>
+                <div class="flowers-img">
+                    <img src="img/home-1.jpg" alt="花の写真">
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news-area">
+            <div class="inner news-content">
+                <div class="news-txt">
+                    <p class="en">News</p>
+                    <p>新入荷のお花や、季節限定のアレンジメントなどの情報をお届けします。<br>お店の最新情報はこちらからご覧ください。</p>
+                    <a href="news/index.html#top" class="btn">もっと見る</a>
+                </div>
+                <div class="news-img">
+                    <img src="img/home-2.jpg" alt="花の写真">
+                </div>
+            </div>
+        </section>
+
+        <section id="access" class="access-upd-area">
+            <div class="inner access-upd-content">
+                <div class="access-upd-txt">
+                    <p class="en">Access</p>
+                    <p>sunday flowerは新宿駅から徒歩4分。<br>街の小さな角にある、白い扉が目印のお店です。<br>お気軽にお立ち寄りください。</p>
+                    <a href="access/index.html#top" class="btn">もっと見る</a>
+                </div>
+                <div class="access-upd-img">
+                    <img src="img/home-3.jpg" alt="花の写真">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-area">
+            <div class="inner contact-content">
+                <div class="contact-txt">
+                    <p class="en">Contact</p>
+                    <p>お花のご予約やギフトのご相談など、 お気軽にお問い合わせください。</p>
+                </div>
+
+                <form action="" method="post">
+                    <dl>
+                        <div class="form-item">
+                            <dt><label for="username" class="required">お名前</label></dt>
+                            <dd><input type="text" name="userName" id="username"></dd>
+                        </div>
+                        <div class="form-item">
+                            <dt><label for="useremail" class="required">メールアドレス</label></dt>
+                            <dd><input type="email" name="userEmail" id="useremail"></dd>
+                        </div>
+                        <div class="form-item">
+                            <dt><label for="content" class="required">お問い合わせ内容</label></dt>
+                            <dd><textarea name="message" id="content" maxlength="300" rows="10"></textarea>
+                        </div>
+                    </dl>
+
+                    <div>
+                        <button type="submit" name="send" value="send" class="btn">送信</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="pagetop"></div>
+
+    </main>
+
+    <!-- footerは最後に切り出す -->
+    <footer id="footer" class="foot-area">
+        <div class="inner-footer">
+            <div class="logo-area foot-logo">
+                <a href="index.html#top"><img src="icons/footer-logo.svg" alt="フッターロゴ"></a>
+            </div>
+            <address class="text-phone">
+                〒000-0000<br>東京都新宿区xxx1-2-3<br>
+                Tel: <a href="tel:03-1234-5678">03-1234-5678</a>
+            </address>
+            <small class="foot-area_copy">&copy; 2025 sunday flower. All Rights Reserved.</small>
+        </div>
+
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>

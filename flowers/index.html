@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Flowers | sunday flower</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top" class="flowers">
+
+    <!-- コーディング完了後、headerはphpとして切り出す -->
+
+    <header class="header">
+
+        <div class="logo-area">
+            <a href="../index.html#top">
+                <img src="../icons/logo-light.svg" alt="Site Logo" id="logo">
+            </a>
+        </div>
+
+        <div id="gnav-drawer">
+            <input id="nav-input" class="none" type="checkbox">
+            <label id="nav-input-open" for="nav-input">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <label id="nav-input-close" for="nav-input"></label>
+
+            <label class="overlay-close" for="nav-input"></label>
+
+            <nav class="header-navi">
+                <ul class="en">
+                    <li><a href="../index.html#top">Home</a></li>
+                    <li><a href="index.html#top">Our Flowers</a></li>
+                    <li><a href="../news/index.html#top">News</a></li>
+                    <li><a href="../access/index.html#top">Access</a></li>
+                    <li><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- スクロール時のヘッダー透過背景 -->
+    <div class="header-bg"></div>
+
+    <section class="hero-subpage">
+        <div class="hero-img-wrap">
+            <img src="../img/flowers-top.jpg" alt="Hero-subpage">
+            <h1 class="hero-title en">Our Flowers</h1>
+        </div>
+    </section>
+
+    <main>
+
+        <section class="inner">
+            <div>
+                <div class="sub-page-wrap">
+                    <h2 class="sub-page-h2">季節とともに咲く、<br class="sp-only">sunday flowerのお花たち</h2>
+                    <p>春にはチューリップやスイートピー、 夏にはヒマワリやグリーンを使った爽やかなブーケ。<br>
+                        秋にはダリアやコスモス、冬にはシクラメンやポインセチアなど、 季節ごとにお花の表情を変えてお届けしています。<br>
+                        また、長く楽しめるプリザーブドフラワー、 香りも楽しめるソープフラワー、 インテリアとして人気のハーバリウムもご用意しています。<br>
+                        贈る方の気持ちに寄り添う花選びを、ぜひお手伝いさせてください。</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="flowers-pic inner">
+                <img src="../img/flowers-1.jpg" alt="">
+                <img src="../img/flowers-2.jpg" alt="">
+                <img src="../img/flowers-3.jpg" alt="">
+                <img src="../img/flowers-4.jpg" alt="">
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- footerは最後に切り出す -->
+    <footer id="footer" class="foot-area">
+        <div class="inner-footer">
+            <div class="logo-area foot-logo">
+                <a href="../index.html#top"><img src="../icons/footer-logo.svg" alt="フッターロゴ"></a>
+            </div>
+            <address class="text-phone">
+                〒000-0000<br>東京都新宿区xxx1-2-3<br>
+                Tel: <a href="tel:03-1234-5678">03-1234-5678</a>
+            </address>
+            <small class="foot-area_copy">&copy; 2025 sunday flower. All Rights Reserved.</small>
+        </div>
+
+    </footer>
+
+    <div class="overlay" id="overlay"></div>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js" defer></script>
+
+</body>
+
+</html>
